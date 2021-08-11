@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1627875972703') format('truetype');
+  src: url('iconfont.ttf?t=1627955313955') format('truetype');
 }
 
 .iconfont {
@@ -13,5 +13,25 @@
 
 .icon--:before {
   content: "\e624";
+}
+
+.icon-icon-diankadingdanchaxun:before {
+  content: "\e612";
+}
+
+.icon-icon-huichang:before {
+  content: "\e613";
+}
+
+.icon-icon-huichangchongzhijilu:before {
+  content: "\e614";
+}
+
+.icon-icon-shoudongtiaozheng:before {
+  content: "\e615";
+}
+
+.icon-icon-zhuceguanli:before {
+  content: "\e616";
 }
 

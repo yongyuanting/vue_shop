@@ -11,6 +11,41 @@
       "font_class": "-",
       "unicode": "e624",
       "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "22724203",
+      "name": "icon-点卡订单查询",
+      "font_class": "icon-diankadingdanchaxun",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "22724204",
+      "name": "icon-会长",
+      "font_class": "icon-huichang",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "22724207",
+      "name": "icon-会长充值记录",
+      "font_class": "icon-huichangchongzhijilu",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "22724208",
+      "name": "icon-手动调整",
+      "font_class": "icon-shoudongtiaozheng",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "22724214",
+      "name": "icon-注册管理",
+      "font_class": "icon-zhuceguanli",
+      "unicode": "e616",
+      "unicode_decimal": 58902
     }
   ]
 }

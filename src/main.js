@@ -12,6 +12,11 @@ import axios from 'axios'
 
 // 配置请求根路径
 axios.defaults.baseURL = 'http://127.0.0.1:8888/api/private/v1/'
+// 需要授权的 API ，必须在请求头中使用 Authorization 字段提供 token 令牌
+axios.interceptors.request.use(config => {
+  config.headers.Authorization = window.sessionStorage.getItem('token')
+  return config
+})
 
 const app = createApp(App)
 app.use(ElementPlus)
@@ -19,4 +24,5 @@ app.use(router)
 app.config.globalProperties.$http = axios
 // 全局挂载消息提示框
 app.provide('$message', ElementPlus)
+app.provide('$confirm', ElementPlus)
 app.mount('#app')
