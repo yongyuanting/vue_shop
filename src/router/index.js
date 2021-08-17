@@ -5,6 +5,8 @@ import Welcome from '../components/welcome'
 import Users from '../components/user/User'
 import Roles from '../components/power/Roles'
 import Rights from '../components/power/Rights'
+import Cate from '../components/goods/Cate'
+import Params from '../components/goods/Params'
 
 const routes = [
   {
@@ -29,6 +31,12 @@ const routes = [
     }, {
       path: '/rights',
       component: Rights
+    }, {
+      path: '/categories',
+      component: Cate
+    }, {
+      path: '/params',
+      component: Params
     }]
   }
 ]
