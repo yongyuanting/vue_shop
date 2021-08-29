@@ -10,6 +10,10 @@ import './assets/font_class/iconfont.css'
 // 导入axios包
 import axios from 'axios'
 // import TreeTable from 'vue-table-with-tree-grid'
+// 导入富文本编辑器
+import { QuillEditor } from '@vueup/vue-quill'
+import '@vueup/vue-quill/dist/vue-quill.snow.css'
+
 
 // 配置请求根路径
 axios.defaults.baseURL = 'http://127.0.0.1:8888/api/private/v1/'
@@ -42,4 +46,5 @@ app.config.globalProperties.$filters = {
   }
 }
 // app.component('tree-table', TreeTable)
+app.component('QuillEditor', QuillEditor)
 app.mount('#app')
